@@ -2,8 +2,9 @@
 
 ## How to run
 
-- Clone repository
-- Open terminal and move to the project folder
+- Clone the repository
+- Open a terminal and move to the project folder
 - Run `npm install`
 - Run `npm start`
+- CSV file will be created as `out.csv`
 - Have fun :)
