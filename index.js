@@ -37,11 +37,12 @@ const fetchItems = async () => {
 }
 
 const serializeItems = (items) => {
-  return items.map(({ title, final_price, images, sub_sub_category, brand }) => ({
+  return items.map(({ title, final_price, images, sub_sub_category, brand, last_activity }) => ({
     title,
     price: final_price,
     category: sub_sub_category.name,
-    brand: brand.name
+    brand: brand.name,
+    date: last_activity
   }))  
 }
 

@@ -8,3 +8,10 @@
 - Run `npm start`
 - CSV file will be created as `out.csv`
 - Have fun :)
+
+## How to fetch brands
+
+- Edit `index.js`
+- Modify `BRAND` variable with the brand id you want to fetch.
+
+![brand](image.png)
